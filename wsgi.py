@@ -8,7 +8,7 @@ from flask import Flask, send_from_directory, request
 from webcam_recorder import WebcamRecorder
 
 app = Flask(__name__)
-wcd_rec = WebcamRecorder(users=os.environ["MODELS"].split("/"))
+wcd_rec = WebcamRecorder(users=["ohbabyy_"])
 
 
 @app.route("/usernames")
